@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-position: right bottom, left;
     background-color: #FFF8F4;
+    margin-bottom: 130px;
 
 }
 
@@ -48,7 +49,7 @@
     border-radius: 5px;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
-    
+
 }
 
 .banner {
@@ -77,4 +78,42 @@
 .banner-discription {
     margin-bottom: 20px;
     color: #757575;
+}
+
+.about {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-title {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.about-footer ul{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    
+
+}
+.about-footer li{
+    list-style: none;
+
 }
