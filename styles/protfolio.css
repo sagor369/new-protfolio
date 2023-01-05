@@ -79,14 +79,15 @@
     margin-bottom: 20px;
     color: #757575;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 .about {
-    
-    
+
+
     padding: 130px 150px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -110,14 +111,53 @@ main{
     color: #757575;
 }
 
-.about-footer ul{
+.about-footer ul {
     display: flex;
     gap: 50px;
     justify-content: space-around;
-    
+
 
 }
-.about-footer li{
+
+.about-footer li {
     list-style: none;
 
+}
+
+/* skill style start */
+.skill {
+    margin: 130px 0;
+    text-align: center;
+}
+
+.skill-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.skill-description {
+    color: #757575;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.skill-item {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-item ul {
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-item h5 {
+    font-size: 20px;
 }
